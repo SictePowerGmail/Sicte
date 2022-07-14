@@ -16,6 +16,7 @@ import Corporativo from './components/Corporativo';
 
 function App() {
   return (
+    <>
     <Router>
       <Navigation/>
       <Routes>
@@ -26,6 +27,7 @@ function App() {
         </Routes>
       
     </Router>
+</>
   );
 }
 
